@@ -1,0 +1,242 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "c-white",
+          "color": "rgb(225,255,255)",
+          "name": "calypso-white"
+        },
+        {
+          "slug": "c-gray-100",
+          "color": "rgb(243 244 246)",
+          "name": "calypso Gray 100"
+        },
+        {
+          "slug": "c-gray-200",
+          "color": "rgb(229 231 235)",
+          "name": "calypso Gray 200"
+        },
+        {
+          "slug": "c-gray-300",
+          "color": "rgb(209 213 219)",
+          "name": "calypso Gray 300"
+        },
+        {
+          "slug": "c-gray-400",
+          "color": "rgb(156 163 175)",
+          "name": "calypso Gray 400"
+        },
+        {
+          "slug": "c-gray-500",
+          "color": "rgb(107 114 128)",
+          "name": "calypso Gray 500"
+        },
+        {
+          "slug": "c-gray-600",
+          "color": "rgb(75 85 99)",
+          "name": "calypso Gray 600"
+        },
+        {
+          "slug": "c-gray-700",
+          "color": "rgb(55 65 81)",
+          "name": "calypso Gray 700"
+        },
+        {
+          "slug": "c-gray-800",
+          "color": "rgb(31 41 55)",
+          "name": "calypso Gray 800"
+        },
+        {
+          "slug": "c-gray-900",
+          "color": "rgb(17 24 39)",
+          "name": "calypso Gray 900"
+        },
+        {
+          "slug": "c-primary",
+          "color": "rgb(239 68 68)",
+          "name": "calypso Primary"
+        },
+        {
+          "slug": "c-accent",
+          "color": "rgb(67 56 202)",
+          "name": "calypso Accent"
+        },
+        {
+          "slug": "c-success",
+          "color": "rgb(52 211 153)",
+          "name": "calypso Success"
+        },
+        { "slug": "c-info", "color": "rgb(96 165 250)", "name": "calypso Info" },
+        {
+          "slug": "c-warning",
+          "color": "rgb(251 146 60)",
+          "name": "calypso Warning"
+        },
+        {
+          "slug": "c-danger",
+          "color": "rgb(236 72 153)",
+          "name": "calypso Danger"
+        }
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true,
+      "duotone": [
+        {"slug": "c-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "calypso Pink Sunset"}
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "c-summer-dog",
+          "name": "Calypso Summer Dog",
+          "gradient": "linear-gradinet(#a8ff78 #78ffd6)"
+        }
+      ]
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": true,
+          "palette": [
+            {"slug": "c-primary", "color": "#ef4444", "name": "calypso Primary"}
+          ],
+          "link": true,
+          "custom": false,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            { "fontFamily": "Pacifico, sans-serif",
+             "slug": "c-pacifico",
+            "name": "Calypso Pacifico"
+            }
+          ]
+        }
+      },
+      
+      "core/cover": {
+        "color": {
+            "duotone": [],
+            "customDuotone": false
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
+        }
+      }
+    },
+    
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "Rubik, sans-serif",
+         "slug": "c-rubik",
+        "name": "Calypso Rubik"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "large" },
+        { "slug": "x-large", "size": "3.75rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": [
+        "px",
+        
+        "rem",
+        "vh",
+        "vw",
+        "%"
+      ],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text" : "var(--wp--preset--color--c-gray-700)",
+      "background": "var(--wp--preset--color--c-white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--c-primary)"
+        }
+        
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--c-summer-dog)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "2px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--color--c-primary)"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--prest--font--family--c-pacifico)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp-preset--font--family--c-rubik)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "bottom":"0px",
+        "left":"0px",
+        "right": "0px"
+
+      },
+      "padding": {
+        "top": "0px",
+        "bottom":"0px",
+        "left":"0px",
+        "right": "0px"
+      },
+      "blockGap": "4rem"
+    }
+  }
+}
